@@ -1,3 +1,9 @@
+package ATMPackage;
+import ATMPackage.BankAccount;
+import ATMPackage.User;
+import ATMPackage.Atm;
+import ATMPackage.GUI;
+
 public class Main {
     public static void main(String[] args) {
         // Create a BankAccount object
@@ -9,7 +15,8 @@ public class Main {
         // Create an ATM object with the User's BankAccount
         Atm atm = new Atm(user.geBankAccount());
 
-        // Run the ATM program
-        atm.Run();
+        new HomeScreen();
+        
+
     }
 }

@@ -1,3 +1,4 @@
+package ATMPackage;
 import java.util.Scanner;
 
 public class Atm {
@@ -45,7 +46,8 @@ public class Atm {
     }
 
     public void logout(){
-
+        System.out.println("Logging out...");
+        isRunning = false;
     }
 
     public void displayMenu(){

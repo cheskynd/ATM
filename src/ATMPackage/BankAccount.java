@@ -1,3 +1,4 @@
+package ATMPackage;
 public class BankAccount {
     private double balance;
     private int pin;
